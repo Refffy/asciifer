@@ -35,6 +35,7 @@ poetry install
 poetry env use python3
 poetry shell
 poetry run python asciifer.py -h
+```
 
 ## 🔧 Command-Line Usage
 
@@ -43,7 +44,7 @@ usage: asciifer.py [-h] [--output-text OUTPUT_TEXT] [--output-image OUTPUT_IMAGE
                    [--font-size FONT_SIZE] [--use-braille]
                    [--font FONT]
                    input_image
-
+```
 ---
 
 ## 🖼️ Examples
@@ -56,3 +57,4 @@ usage: asciifer.py [-h] [--output-text OUTPUT_TEXT] [--output-image OUTPUT_IMAGE
 **Command:**
 ```bash
 poetry run python asciifer.py --output-image=examples/raphtalia_ascii.jpg --font="/Users/r3ffy/Library/Fonts/FiraCode-Bold.ttf" --font-size=12 examples/raphtalia.jpg
+```
